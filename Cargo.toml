@@ -1,0 +1,12 @@
+[package]
+name = "cranejit"
+version = "0.1.0"
+authors = ["Spencer Leslie <spencerdleslie@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cranelift = "0.52.0"
+cranelift-module = "0.52.0"
+cranelift-simplejit = "0.52.0"
